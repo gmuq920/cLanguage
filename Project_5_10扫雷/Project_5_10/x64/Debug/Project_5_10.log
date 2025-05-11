@@ -1,0 +1,5 @@
+﻿  game.c
+  test.c
+C:\cLanguage\Project_5_10\Project_5_10\test.c(37,2): warning C4013: “srand”未定义；假设外部返回 int
+  正在生成代码...
+  Project_5_10.vcxproj -> C:\cLanguage\Project_5_10\x64\Debug\Project_5_10.exe
