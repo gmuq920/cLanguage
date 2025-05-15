@@ -1,0 +1,3 @@
+﻿  test.c
+C:\cLanguage\Project_5_14\Project_5_14\test.c(20,9): warning C4477: “printf”: 格式字符串“%zd”需要类型“unsigned __int64”的参数，但可变参数 1 拥有了类型“int **”
+  Project_5_14.vcxproj -> C:\cLanguage\Project_5_14\x64\Debug\Project_5_14.exe
