@@ -1,0 +1,6 @@
+﻿  test.c
+C:\cLanguage\Project_5_26\Project_5_26\test.c(19,10): warning C4047: “函数”:“const char *”与“FILE *(__cdecl *)(const char *,const char *)”的间接级别不同
+C:\cLanguage\Project_5_26\Project_5_26\test.c(19,10): warning C4024: “perror”: 形参和实参 1 的类型不同
+C:\cLanguage\Project_5_26\Project_5_26\test.c(32,10): warning C4047: “函数”:“const char *”与“FILE *(__cdecl *)(const char *,const char *)”的间接级别不同
+C:\cLanguage\Project_5_26\Project_5_26\test.c(32,10): warning C4024: “perror”: 形参和实参 1 的类型不同
+  Project_5_26.vcxproj -> C:\cLanguage\Project_5_26\x64\Debug\Project_5_26.exe
