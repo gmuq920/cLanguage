@@ -1,0 +1,4 @@
+﻿  SList.c
+C:\cLanguage\Project_6_3_SList\Project_6_3_SList\SList.c(22,3): warning C4047: “return”:“SLTNode *”与“int”的间接级别不同
+C:\cLanguage\Project_6_3_SList\Project_6_3_SList\SList.c(158,7): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+  Project_6_3_SList.vcxproj -> C:\cLanguage\Project_6_3_SList\x64\Debug\Project_6_3_SList.exe
