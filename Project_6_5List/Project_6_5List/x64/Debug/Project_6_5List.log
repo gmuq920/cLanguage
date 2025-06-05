@@ -1,0 +1,5 @@
+﻿  List.c
+C:\cLanguage\Project_6_5List\Project_6_5List\List.c(9,3): warning C4047: “return”:“LTNode *”与“int”的间接级别不同
+  test.c
+  正在生成代码...
+  Project_6_5List.vcxproj -> C:\cLanguage\Project_6_5List\x64\Debug\Project_6_5List.exe
