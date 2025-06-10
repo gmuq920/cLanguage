@@ -11,7 +11,7 @@ void STInit(ST* pst)
 	pst->capacity = 0;
 
 }
-void STDestry(ST* pst) 
+void STDestroy(ST* pst) 
 {
 	assert(pst);
 	free(pst->a);
@@ -21,10 +21,10 @@ void STDestry(ST* pst)
 void STPush(ST* pst, STDataType x) 
 {
 	assert(pst);
-	if (pst->capacity = pst->top)
+	if (pst->capacity == pst->top)
 	{
 		int newCapacity = pst->capacity == 0 ? 4 : pst->capacity * 2;
-		STDataType* tmp = (STDataType*)realloc(pst, newCapacity*(sizeof(STDataType)));
+		STDataType* tmp = (STDataType*)realloc(pst->a, newCapacity*(sizeof(STDataType)));
 		if (tmp == NULL) {
 			perror("realloc");
 			return;
