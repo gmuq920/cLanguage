@@ -44,7 +44,7 @@ void AdjustUp(HPDataType* a, int child)
 	
 }
 
-AdjustDown(HPDataType* a, int size, int parent) 
+void AdjustDown(HPDataType* a, int size, int parent) 
 {
 	int child = 2 * parent + 1;
 	while(child < size) 

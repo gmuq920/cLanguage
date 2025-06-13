@@ -23,3 +23,7 @@ void HPPop(HP* php);
 HPDataType HPTop(HP* php);
 
 bool HPEmpty(HP* php);
+
+void AdjustUp(HPDataType* a, int child);
+
+void AdjustDown(HPDataType* a, int size, int parent);
