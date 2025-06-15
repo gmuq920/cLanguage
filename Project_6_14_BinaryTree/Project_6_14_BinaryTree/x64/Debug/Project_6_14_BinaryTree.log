@@ -1,4 +1,2 @@
-﻿  BinaryTree.c
-C:\cLanguage\Project_6_14_BinaryTree\Project_6_14_BinaryTree\BinaryTree.c(11,3): warning C4033: “BuyNode”必须返回值
-C:\cLanguage\Project_6_14_BinaryTree\Project_6_14_BinaryTree\BinaryTree.c(16,1): warning C4716: “BuyNode”: 必须返回一个值
+﻿  test.c
   Project_6_14_BinaryTree.vcxproj -> C:\cLanguage\Project_6_14_BinaryTree\x64\Debug\Project_6_14_BinaryTree.exe

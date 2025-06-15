@@ -2,6 +2,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<assert.h>
+#include<stdbool.h>
 
 typedef int BTDataType;
 typedef struct BTNode
@@ -28,4 +29,12 @@ int TreeHeight(BTNode* root);
 int TreeLevelKSize(BTNode* root,int k);
 
 BTNode* TreeFind(BTNode* root, BTDataType x);
+
+void TreeDestroy(BTNode* root);
+
+void TreeLevelOrder(BTNode* root);
+
+//void TreeComplete(BTNode* root);
+
+bool TreeComplete(BTNode* root);
 

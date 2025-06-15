@@ -18,6 +18,12 @@ BTNode* CreateBinaryTree()
 	node4->left = node5;
 	node4->right = node6;
 	node5->right = node7;
+	/*BTNode* node1 = BuyNode(1);
+	BTNode* node2 = BuyNode(2);
+	BTNode* node3 = BuyNode(3);
+	node1->left = node2;
+	node1->right = node3;*/
+
 	return node1;
 
 }
@@ -34,9 +40,11 @@ int main()
 	printf("Input the level nums need to be calculate:->");
 	scanf("%d", &input);
 	printf("level %d's size is %d",input ,TreeLevelKSize(root, input));*/
-	BTNode* res = TreeFind(root, 6);
-	printf("%d\n", res->val);
+	/*BTNode* res = TreeFind(root, 6);
+	printf("%d\n", res->val);*/
 
+	//TreeLevelOrder(root);
+	TreeComplete(root);
 	return 0;
 }
 
